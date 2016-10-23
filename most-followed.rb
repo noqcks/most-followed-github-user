@@ -24,7 +24,7 @@ end
   faraday.adapter  Faraday.default_adapter
 end
 
-def most_followers(per_page = 10)
+def most_followers(per_page = 100)
   response = @gh_api.get "/search/users?q=sort:followers+location:#{@location}&per_page=#{per_page}"
   JSON.parse(response.body)
 end
