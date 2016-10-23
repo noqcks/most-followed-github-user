@@ -16,6 +16,10 @@ For Toronto:
 
 https://github.com/noqcks/most-followed-github-users/blob/master/toronto.md
 
+## Why
+
+Because I was bored and curious, and because GitHub doesn't list follower count in their user search API.
+
 ## Usage Note
 
 I made this in 20 minutes. Use at your own risk XD
